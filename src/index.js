@@ -1,14 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import { isAuthenticated } from "./util/auth";
-import { Home } from "./home";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { isAuthenticated } from './util/auth';
+import { Home } from './home';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-require("dotenv").config();
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>{isAuthenticated() ? <Home /> : <App />}</React.StrictMode>

@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +40,13 @@
 
 .MuiFormHelperText-root {
   color: red !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: white !important
+}
+
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid white !important;
 }

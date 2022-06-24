@@ -1,0 +1,11 @@
+html {
+  background-color: orange;
+}
+.rootDiv {
+  background-color: white;
+  margin: 50px auto !important;
+  width: 90vw !important;
+}
+.transparentBackground {
+  background-color: #0000 !important;
+}
